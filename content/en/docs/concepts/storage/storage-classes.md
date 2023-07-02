@@ -32,8 +32,8 @@ Each StorageClass contains the fields `provisioner`, `parameters`, and
 `reclaimPolicy`, which are used when a PersistentVolume belonging to the
 class needs to be dynamically provisioned.
 
-The name of a StorageClass object is significant, as it allows users to request a specific
-class for their storage needs. When administrators create StorageClass objects, they define 
+The name of a StorageClass object is significant, as it allows users to request a specific class
+for their storage needs. When administrators create StorageClass objects, they define 
 not only the name but also other parameters, annotations, and labels to customize the behavior
 of the class according to different use cases. Unlike the initial statement, the objects' annotations, 
 labels, and parameters can be updated after creation. For instance, administrators can modify the StorageClass 
